@@ -1,16 +1,11 @@
-# React + Vite
+# Week 3 Assignment: React Hooks & Client-Side Routing
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A multi-page SPA dashboard built with React and React Router DOM, featuring client-side routing, interactive state management using custom hooks, and persistent task storage with `localStorage`.
 
-Currently, two official plugins are available:
+## 🚀 Key Deliverables Met
+- **Client-Side Routing:** Multi-page navigation utilizing React Router components.
+- **Route Components:** Dedicated views for the Home dashboard, interactive To-Do application, and About page.
+- **Hook State Mechanics:** State tracking and persistence via `useState` and `useEffect`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Installation & Local Setup Instructions
+To run the project locally, install dependencies using `npm install` and start the development server with `npm run dev`.
